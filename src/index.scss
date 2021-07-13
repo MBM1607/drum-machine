@@ -71,6 +71,7 @@ body {
 	cursor: pointer;
 	position: relative;
 	transition: background-color ease-in-out 0.5s, border-color ease-in-out 0.5s;
+	will-change: background-color, border-color;
 
 	&:before, &:after{
 		position: absolute;
